@@ -3,65 +3,149 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ChicQuotient.com – Premium Domain for Sale</title>
+  <title>ChicQuotient.com – Premium Domain For Sale</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
-    body { font-family: system-ui, -apple-system, sans-serif; }
-    .hero { background: linear-gradient(135deg, #111 0%, #1e1b2e 100%); min-height: 100vh; }
+    body { 
+      font-family: 'Helvetica Neue', Arial, sans-serif; 
+      background: #000; 
+      color: #fff; 
+      line-height: 1.6;
+    }
+    .hero { 
+      min-height: 100vh; 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      text-align: center; 
+      padding: 2rem; 
+    }
+    .logo-c {
+      font-size: 18rem; 
+      font-weight: bold; 
+      color: #ff4d4d; /* orange-red */
+      position: relative; 
+      display: inline-block;
+      line-height: 0.8;
+    }
+    .logo-wave {
+      position: absolute; 
+      bottom: -20%; 
+      left: 50%; 
+      transform: translateX(-50%);
+      width: 60%; 
+      height: auto;
+    }
+    .accent { color: #ff4d4d; }
+    .section { 
+      min-height: 100vh; 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      padding: 4rem 2rem; 
+      text-align: center;
+    }
+    .benefits { 
+      max-width: 800px; 
+      margin: 0 auto;
+    }
+    .button { 
+      background: transparent; 
+      border: 2px solid #fff; 
+      color: #fff; 
+      padding: 1rem 2.5rem; 
+      border-radius: 50px; 
+      font-weight: bold; 
+      margin: 1rem; 
+      transition: all 0.3s;
+    }
+    .button:hover { 
+      background: #fff; 
+      color: #000; 
+    }
+    .whatsapp { background: #25D366; border-color: #25D366; color: #fff; }
+    .whatsapp:hover { background: #128C7E; }
   </style>
 </head>
-<body class="bg-black text-white">
-  <div class="hero flex items-center justify-center px-6 py-16">
-    <div class="max-w-3xl mx-auto text-center">
-      <!-- Logo / Top -->
-      <div class="mb-8">
-        <span class="text-7xl font-bold text-pink-400">CQ</span>
-        <h1 class="text-5xl font-bold mt-2">CHIC QUOTIENT</h1>
-        <p class="text-2xl font-light text-gray-300 mt-2">Your Style. Elevated.</p>
-      </div>
+<body>
 
-      <!-- For Sale Banner -->
-      <div class="bg-gradient-to-r from-pink-600 to-purple-700 rounded-3xl p-8 mb-12 shadow-2xl">
-        <h2 class="text-4xl font-bold mb-4">FOR SALE</h2>
-        <p class="text-xl mb-6">The premium .com domain for fashion, lifestyle, styling apps, beauty brands, quizzes & lifestyle platforms.<br>Logos included.</p>
-        <div class="text-5xl font-bold mb-2">₹4,20,000</div>
-        <div class="text-2xl mb-6">or $4,995 USD</div>
-        <p class="text-lg opacity-90">Secure transfer via Escrow.com • Instant after payment</p>
-        <a href="mailto:your-email@gmail.com?subject=Offer%20for%20chicquotient.com" class="mt-8 inline-block bg-white text-black font-bold px-12 py-5 rounded-full text-xl hover:bg-gray-200 transition">
-          BEST OFFER →
-        </a>
+  <!-- Hero Section (FOR SALE) -->
+  <section class="hero bg-black">
+    <div>
+      <p class="text-2xl md:text-4xl font-light uppercase tracking-widest mb-6">FOR SALE</p>
+      
+      <div class="relative inline-block mb-12">
+        <div class="logo-c">C</div>
+        <!-- Blue wave accent under C (SVG approximation) -->
+        <svg class="logo-wave" viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 50 Q50 0 100 50 T200 50" stroke="#4da6ff" stroke-width="12" fill="none"/>
+          <path d="M0 60 Q50 10 100 60 T200 60" stroke="#4da6ff" stroke-width="8" fill="none" opacity="0.7"/>
+        </svg>
       </div>
-
-      <!-- Benefits -->
-      <div class="grid md:grid-cols-2 gap-8 mb-12 text-left">
-        <div class="bg-white/5 rounded-2xl p-8">
-          <h3 class="text-2xl font-bold mb-4">Why ChicQuotient.com?</h3>
-          <ul class="text-lg space-y-4">
-            <li>🎯 Instantly says "style intelligence"</li>
-            <li>🌍 Perfect for India + global reach</li>
-            <li>✨ Short, memorable, brand-ready</li>
-            <li>Free professional LOGOs (scroll for examples)</li>
-          </ul>
-        </div>
-        <div class="bg-white/5 rounded-2xl p-8">
-          <h3 class="text-2xl font-bold mb-4">Ideal For</h3>
-          <p class="text-lg">Fashion brands • Styling apps • Beauty e-commerce • Quizzes ("What's Your Chic Quotient?") • Lifestyle platforms • Influencers</p>
-        </div>
+      
+      <h1 class="text-5xl md:text-7xl font-bold mb-4">Chic Quotient</h1>
+      
+      <p class="text-xl md:text-2xl max-w-3xl mx-auto mb-10">
+        The premium .com domain for fashion, lifestyle, styling apps,<br>
+        beauty brands, quizzes & lifestyle platforms. Logos included.
+      </p>
+      
+      <div class="text-4xl md:text-6xl font-bold accent mb-2">BEST OFFER</div>
+      <div class="text-3xl md:text-5xl font-semibold mb-6">
+        ₹4,20,000<br>
+        $4,995 USD
       </div>
-
-      <!-- Contact -->
-      <div class="flex flex-col sm:flex-row gap-6 justify-center mb-12">
-        <a href="mailto:your-email@gmail.com" class="bg-white/10 hover:bg-white/20 border border-white/20 rounded-full px-10 py-5 font-bold flex items-center justify-center gap-3">
-          <i class="fas fa-envelope text-xl"></i> Email Offer
-        </a>
-        <a href="https://wa.me/YOUR-WHATSAPP-NUMBER" target="_blank" class="bg-green-600 hover:bg-green-500 rounded-full px-10 py-5 font-bold flex items-center justify-center gap-3">
-          <i class="fab fa-whatsapp text-xl"></i> WhatsApp
-        </a>
-      </div>
-
-      <p class="text-sm text-gray-500">© 2026 Purnima • Goa, India</p>
+      
+      <p class="text-lg md:text-xl opacity-80 mb-12">
+        Secure transfer via Escrow.com • Instant after payment
+      </p>
+      
+      <a href="mailto:your-email@gmail.com?subject=Offer for ChicQuotient.com" 
+         class="button text-xl">→ Make an Offer</a>
     </div>
-  </div>
+  </section>
+
+  <!-- Scroll Section: Benefits + Your Style Elevated -->
+  <section class="section bg-gradient-to-b from-black to-gray-900">
+    <div class="benefits">
+      <div class="relative inline-block mb-16">
+        <div class="logo-c" style="font-size: 14rem; color: #d9925e;">C</div> <!-- Tan/orange variant for this section -->
+        <svg class="logo-wave" viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 50 Q50 0 100 50 T200 50" stroke="#4da6ff" stroke-width="12" fill="none"/>
+        </svg>
+      </div>
+      
+      <h2 class="text-6xl md:text-8xl font-bold mb-12 leading-none">
+        Your Style.<br>Elevated.
+      </h2>
+      
+      <ul class="text-2xl md:text-3xl space-y-8 max-w-2xl mx-auto text-left">
+        <li>* Instantly says "style intelligence"</li>
+        <li>* Perfect for India + global reach</li>
+        <li>* Short, memorable, brand-ready</li>
+        <li>* Free professional LOGOS</li>
+      </ul>
+      
+      <p class="text-xl md:text-2xl mt-12 opacity-80">
+        Scroll for branding examples.
+      </p>
+      
+      <div class="mt-16 flex flex-col sm:flex-row justify-center gap-8">
+        <a href="mailto:your-email@gmail.com" class="button text-xl">
+          <i class="fas fa-envelope mr-2"></i> E-Mail
+        </a>
+        <a href="https://wa.me/919876543210" target="_blank" class="button whatsapp text-xl">
+          <i class="fab fa-whatsapp mr-2"></i> Whatsapp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer / Note -->
+  <footer class="text-center py-12 text-gray-500 text-sm">
+    © 2026 Purnima • Bicholim, Goa, India
+  </footer>
+
 </body>
 </html>
